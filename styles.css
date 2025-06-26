@@ -20,8 +20,9 @@ h1{
     background-color: white;
     width: 40%;
     margin: 0 auto;
-    border-radius: 3%;
+    border-radius: 20px;
     padding: 10px;
+    margin-top: 50px;
 }
 
 .sub-header{
@@ -35,6 +36,7 @@ h1{
 .header img{
     margin: 0 auto;
     margin-top: 40px;
+    margin-left: 30px;
     width: 90%;
     border-radius: 3%;
 }
@@ -57,4 +59,34 @@ h1{
 
 li{
     padding: 5px;
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+/* Filas con separación */
+tr {
+  border-bottom: 1px solid #ececec;
+}
+
+/* Celdas */
+td {
+  padding: 12px 0;
+}
+
+/* Primera celda (nombre del nutriente) */
+td:first-child {
+  color: #5e2a17;
+}
+
+/* Segunda celda (valor nutricional) */
+td:last-child {
+  font-weight: bold;
+  color: #8b2d1b;
+  text-align: left;
 }
