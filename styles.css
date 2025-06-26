@@ -1,0 +1,60 @@
+body{
+    background-color: #F3E5D8;
+    text-align: left;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+}
+
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: 300;
+    margin-left: 20px;
+    font-size: 2.4rem;
+}
+
+.header p{
+    margin-left: 20px;
+}
+
+.recipe-card{
+    background-color: white;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 3%;
+    padding: 10px;
+}
+
+.sub-header{
+    color: #773D2B;
+    font-family: "Young Serif", serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+    margin-left: 20px;
+}
+
+.header img{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 90%;
+    border-radius: 3%;
+}
+
+.preparation-time{
+    margin-left: 20px;
+    width: 90%;
+    background-color: #FFF7FC;
+    color: #726B6B;
+    padding: 0px;
+    border-radius: 3%;
+}
+
+.preparation-time h5{
+    margin-left: 20px;
+    color: #6E364F;
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+}
+
+li{
+    padding: 5px;
+}
